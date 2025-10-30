@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jigish Parghi | Holistic Learning Hub</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Jigish Parghi</div>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#learning-series">Learning Series</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div>
+          <h1>Holistic Learning Hub</h1>
+          <p>Engineer, mentor, and educator dedicated to building resilient teams and empowering developers through purposeful learning.</p>
+          <a href="#projects" class="btn primary">Explore Projects</a>
+        </div>
+        <div class="hero-highlight">
+          <p>"Learning is a journey of curiosity, discipline, and craft."</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">🚀 Featured Projects</h2>
+        <p class="section-subtitle">Open-source initiatives and community contributions focused on mentoring and knowledge sharing.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Mentorship Playbook</h3>
+            <p>A curated repository of onboarding frameworks, workshop templates, and learning rituals for high-performance engineering teams.</p>
+            <a href="https://github.com/jparghi/mentorship-playbook" target="_blank" rel="noopener" class="btn">View on GitHub</a>
+          </article>
+          <article class="project-card">
+            <h3>Holistic Learning Hub</h3>
+            <p>Personal site showcasing projects, writing, and structured learning series for aspiring software engineers.</p>
+            <a href="https://github.com/jparghi" target="_blank" rel="noopener" class="btn">View Profile</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="learning-series" class="learning-section">
+      <div class="container">
+        <h2 class="section-title">🧠 Holistic Learning Series</h2>
+        <p class="section-subtitle">
+          Learn Java and Python through structured, project-based paths created by <strong>Jigish Parghi</strong>.
+          <br><em>🎥 Video tutorials coming soon!</em>
+        </p>
+
+        <div class="course-grid">
+          <div class="course-card">
+            <div class="icon java">☕</div>
+            <h3>Holistic Java Series</h3>
+            <p>A 3-phase Java roadmap — from basics to advanced interview readiness, with coding drills and bug-fix challenges.</p>
+            <a href="https://github.com/jparghi/holistic-java-series" target="_blank" rel="noopener" class="btn">View on GitHub</a>
+          </div>
+
+          <div class="course-card">
+            <div class="icon python">🐍</div>
+            <h3>Holistic Python Basics</h3>
+            <p>Structured beginner-to-intermediate Python lessons mirroring the Java path, focusing on syntax and problem-solving.</p>
+            <a href="https://github.com/jparghi/holistic-python-basics" target="_blank" rel="noopener" class="btn">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">📬 Stay Connected</h2>
+        <p class="section-subtitle">Interested in collaborating or mentoring? Reach out for talks, workshops, or pairing sessions.</p>
+        <a href="mailto:jigish.parghi@gmail.com" class="btn primary">Say Hello</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jigish Parghi. Crafted for curious minds.</p>
+      <p>
+        💡 Explore my Holistic Learning Series:
+        <a href="#learning-series">Java</a> |
+        <a href="#learning-series">Python</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
